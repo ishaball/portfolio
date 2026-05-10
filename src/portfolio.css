@@ -100,9 +100,9 @@ body{
 
     position:absolute;
     top:70px;
-    right:18px;
+    left:18px;
 
-    background: rgba(15, 23, 42, 0.96);
+    background: #111827;
 
     padding:18px;
 
@@ -116,9 +116,6 @@ body{
 
     box-shadow:
       0 15px 40px rgba(0,0,0,0.45);
-
-    backdrop-filter: blur(18px);
-    -webkit-backdrop-filter: blur(18px);
   }
 
   .navlinks--open{
@@ -126,14 +123,20 @@ body{
   }
 
   .navlink{
-    color: white;
+    color:#f8fafc;
+
     font-size:16px;
+
     padding:10px 12px;
+
     border-radius:12px;
+
+    transition:0.3s ease;
   }
 
   .navlink:hover{
-    background: rgba(255,255,255,0.06);
+    background:#1e293b;
+    color:#22d3ee;
   }
 
   .brand{
