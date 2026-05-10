@@ -228,7 +228,7 @@ export default function App() {
     <h3 className="card__title">Education</h3>
 
     <p className="card__desc">
-      • B.Tech in Electronics & Communication Engineering, JIS College of Engineering (2023–2027) | CGPA: 9.17 <br /><br />
+      • B.Tech in Electronics & Communication Engineering, JIS College of Engineering (2023–2027) | CGPA: 8.87 <br /><br />
 
       • Higher Secondary, Bhamuria S.M High School | 85% <br /><br />
 
@@ -236,7 +236,7 @@ export default function App() {
     </p>
 
     <div className="card__tags">
-      {['B.Tech ECE', 'CGPA 9.17', 'Consistency'].map((t) => (
+      {['B.Tech ECE', 'CGPA 8.87', 'Consistency'].map((t) => (
         <span className="tag" key={t}>
           {t}
         </span>
