@@ -1,0 +1,5 @@
+// Disabled: lint-breaking implementation replaced by src/TypingFixed.jsx
+export default function Typing(){
+  return null;
+}
+
