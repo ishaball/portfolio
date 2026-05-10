@@ -94,27 +94,46 @@ body{
     grid-template-columns:1fr;
   }
 
-.navlinks{
-  display:none;
-  flex-direction:column;
-  position:absolute;
-  top:70px;
-  right:18px;
-  background: rgba(5, 7, 18, 0.72);
+  .navlinks{
+    display:none;
+    flex-direction:column;
 
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  padding:16px;
-  border-radius:16px;
-  border:1px solid rgba(34, 211, 238, 0.22);
+    position:absolute;
+    top:70px;
+    right:18px;
 
-  gap:10px;
-  width:180px;
-}
+    background: rgba(15, 23, 42, 0.96);
 
+    padding:18px;
+
+    border-radius:20px;
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    gap:14px;
+
+    width:190px;
+
+    box-shadow:
+      0 15px 40px rgba(0,0,0,0.45);
+
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+  }
 
   .navlinks--open{
     display:flex;
+  }
+
+  .navlink{
+    color: white;
+    font-size:16px;
+    padding:10px 12px;
+    border-radius:12px;
+  }
+
+  .navlink:hover{
+    background: rgba(255,255,255,0.06);
   }
 
   .brand{
