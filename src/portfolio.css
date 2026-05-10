@@ -88,61 +88,7 @@ body{
   gap: 22px;
   align-items: center;
 }
-@media (max-width: 920px){
 
-  .hero{
-    grid-template-columns:1fr;
-  }
-
-  .navlinks{
-    display:none;
-    flex-direction:column;
-
-    position:absolute;
-    top:70px;
-    left:18px;
-
-    background: #111827;
-
-    padding:18px;
-
-    border-radius:20px;
-
-    border:1px solid rgba(255,255,255,0.08);
-
-    gap:14px;
-
-    width:190px;
-
-    box-shadow:
-      0 15px 40px rgba(0,0,0,0.45);
-  }
-
-  .navlinks--open{
-    display:flex;
-  }
-
-  .navlink{
-    color:#f8fafc;
-
-    font-size:16px;
-
-    padding:10px 12px;
-
-    border-radius:12px;
-
-    transition:0.3s ease;
-  }
-
-  .navlink:hover{
-    background:#1e293b;
-    color:#22d3ee;
-  }
-
-  .brand{
-    cursor:pointer;
-  }
-}
 
 .heroCard{
   position:relative;
