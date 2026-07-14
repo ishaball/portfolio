@@ -379,10 +379,7 @@ export default function App() {
                     <div className="contactCard__label">Location</div>
                     <div className="contactCard__value">West Bengal, India</div>
                   </div>
-                  <div className="contactCard">
-                    <div className="contactCard__label">Phone Number</div>
-                    <div className="contactCard__value">+91 8348931221</div>
-                  </div>
+                  
 
                   
 
