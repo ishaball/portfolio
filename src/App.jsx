@@ -180,7 +180,7 @@ export default function App() {
     <h3 className="card__title">What I Do</h3>
 
     <p className="card__desc">
-      • NPTEL Certifications in Programming in Java & DBMS <br /><br />
+      • NPTEL Certifications in Programming in Java & DBMS & AI<br /><br />
 
       • Beyond Curriculum Training in MEAN Stack & Android Development <br /><br />
 
